@@ -1,0 +1,25 @@
+.calculator-body{
+    height: 340px;
+    width: 280px;
+    background-color: aquamarine;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 10px;
+    border: 1px solid rgb(34, 24, 5);
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(207, 26, 26, 0.2), 0 6px 20px 0 rgba(133, 6, 6, 0.19);
+}
+.main-bar{
+    text-align: right;
+    margin-bottom: 5px;
+}
+.btn{
+    margin-top: 5px;
+    border: 1px solid rgb(245, 7, 7);
+    font-size: 20px;
+    width: 58px;
+    cursor: pointer;
+}
+.last input {
+    width: 120px;
+}
