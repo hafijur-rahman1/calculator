@@ -21,6 +21,10 @@
     <div class="calculator-body">
       <form action="" name="form">
         <input type="text" class="form-control main-bar" value=" " placeholder="00" name="display">
+        <div>
+          <h5 id="title">Casio</h5>
+        </div>
+      
         <div class="number-btn">
           <input type=button name="btn" class="btn btn-primary" value="7" onclick="calculate(this.value)">
           <input type=button name="btn" class="btn btn-primary" value="8" onclick="calculate(this.value)">
@@ -46,11 +50,11 @@
           <input type=button name="btn" class="btn btn-warning" value="+" onclick="calculate(this.value)">
         </div>
         <div class="last">
+          <input type="button" name="btn" value="ON" class="btn btn-success" onclick="display.value = null">
           <input type="button" name="btn" value="c" class="btn btn-danger" onclick="display.value = null">
-          <input type="button" name="btn" value="=" class="btn btn-warning" onclick="display.value = eval(display.value)">
-          
+          <input type="button" name="btn" value="=" class="btn btn-info" onclick="display.value = eval(display.value)">
         </div>
-      
+        
       </form>
     </div>
 

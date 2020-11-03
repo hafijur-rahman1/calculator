@@ -1,7 +1,11 @@
+body {
+    background: #6b6b8a;
+    height: 100vh;
+}
 .calculator-body{
     height: 340px;
     width: 280px;
-    background-color: aquamarine;
+    background-color: rgb(41, 11, 61);
     margin: 0 auto;
     margin-top: 50px;
     padding: 10px;
@@ -21,5 +25,8 @@
     cursor: pointer;
 }
 .last input {
-    width: 120px;
+    width: 80px;
+}
+#title{
+    color: rgba(255, 255, 255, 0.541);
 }
